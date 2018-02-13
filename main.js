@@ -5,12 +5,13 @@ function getuserdata(){
 let inputBoxvalue=document.gueryselector("inputBox").value {
 console.log(inputBoxvalue)
 }
-document.queryselector("uniqueid").InnerHTML=inputBoxvalue{
+document.queryselector("output").InnerHTML=inputBoxvalue{
 const.array=("one","two", "three", "four", "five");
-for let i=0; i=array+length; i++) {
+for let  (i=0; i=array+length; i++) {
   console.log(array[i]);
 }
-const obj={
+const
+ obj={
   name: bob;
   age: 30;
   gender: male;
@@ -18,7 +19,7 @@ const obj={
 document.queryselector("#one").innerHTML=obj.name;
 document.queryselector("#two").innerHTML=obj.age;
 document.queryselector("#three").innerHTML=obj.gender;
-}
+
 const personArray=[
   {name: bob;
   age: 30;
