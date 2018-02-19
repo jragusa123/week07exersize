@@ -6,14 +6,26 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
-    <h1 id="unique"> </h1>
-    <input id="inputBox" type="text" name="" value=""> </input>
-    <button onclick="getuserdata"type="button" name="button"> click me </button>
+    <div class="main-container">
+			<form>
+			<div class="formS">
+				<h1>What's yo name whats yo Sign?</h1>
+			</div>
+			<div class="formS">
+				<input id="your-sign" class="form-input" placeholder="ex: Taurus"></input>
+			</div>
+			<div class="formS">
+				<button type="button" onclick="astSign()">Click me to find out</button>
+			</div>
+			</form>
 
-    <h1 ide="output"> </h1>
-    <h2 id="one"> </h2>
-    <h2 id="two"> </h2>
-    <h2 id="three"> </h3>
+			<div>
+				<h1 id="yourSign"></h1>
+				<h2 id="birthdayRange"></h2>
+				<h2 id="attributes"></h2>
+				<img id="zodiacImage">
+			</div>
+		</div>
 
 
 
